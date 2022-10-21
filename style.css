@@ -1,0 +1,177 @@
+*{
+    margin:auto, auto;
+    
+}
+.intro{
+    display:flex;
+}
+img{
+    width: 5rem;
+    height: 5rem;
+    border-image: 5px;
+    border-radius: 20px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+   /*  border: 1px solid black; */
+}
+.intro{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px
+}
+.course-name {
+    display: inline;
+    text-align: center; 
+}
+.wraper{
+    padding-top: 50px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.pcoPic{
+    width: 400px;
+    height: 400px;
+}
+.course-content .menu ol li{
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.course-content .menu ol li a{
+    text-decoration: none;
+    color:brown;
+
+}
+.course-content .menu ol li a:hover{
+    color:yellow;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color:brown;
+}
+a:-webkit-any-link:hover{
+    color:yellow;
+}
+h2{
+    padding-top: 20px;
+    text-align: center;
+}
+.contact{
+    font-size: 20px;
+    /* text-align: center; */
+}
+.way-to-contact{
+    display: inline-block;
+    margin-left: 500px;
+}
+.contact-infor{
+    display: inline-block;
+    margin-left: 150px;
+}
+.form{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+   display: flex;
+   justify-content: center;
+}
+textarea{
+    border-radius: 5px;
+    height: 90px;
+}
+button{
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 15px;
+
+}
+button:hover{
+    background-color:brown;
+    color:yellow;
+}
+#unit-overview{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.three-unit-items{
+    display: flex;
+    width:1000px;
+    height: 600px;
+   /*  border: 1px solid red; */
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cell{
+    width: 50%;
+}
+.cell-1{
+    flex-basis: 84%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: larger;
+}
+.h4-of-unit{
+    margin-left: -325px;
+}
+.c1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col2{
+    padding-left: 50px ;
+}
+.cell-2{/* 
+    border: 1px solid yellow; */
+    padding-left: 25px;
+    text-decoration: wavy;
+    font-size: 18px;
+}
+.cell-3{
+    padding-left: 25px;
+    font-size: 18px;
+    
+    /* border: 1px solid blue; */
+}
+#learning-resource{
+    margin-left: 227px;
+    margin-right: 227px;
+    font-size: 20px;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#schedule, #assessment{
+  max-width: 1000px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+#assessment{
+    padding-top: 20;
+}
+#schedule{
+    padding-top: 20px;
+}
+th,td{
+    padding: 20px;
+}
