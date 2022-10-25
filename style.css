@@ -1,9 +1,13 @@
 *{
     margin:auto, auto;
-    
+    font-family: sans-serif;
 }
-.intro{
+/* .intro{
     display:flex;
+} */
+body{
+    margin: 0;
+    padding: 0;
 }
 img{
     width: 5rem;
@@ -16,13 +20,57 @@ img{
     flex-direction: column;
    /*  border: 1px solid black; */
 }
-.intro{
+/* .intro{
     display: flex;
     margin: 20px 20px 20px 20px;
     justify-content:space-between;
     margin-left: auto;
     margin-right: auto;
     width: 1000px
+} */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background: brown;
+    margin: 0;
+    padding: 0;
+    color: yellow;
+    position: fixed;
+    top:0;
+    right:0;
+    left: 0;
+    width:1490px;
+    padding:10px 10px;
+}
+.infor{
+    margin-left: -50px;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    color: yellow;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation li {
+    list-style: none;
+    padding: 10px;
+    font-size: 17px;
+    width: fit-content;
+}
+.navigation li a{
+    color: yellow;
+}
+.navigation li:hover{
+    background-color: aliceblue;
+}
+.icon{
+    margin-left:50px ;
+}
+.content{
+    margin-top: 150px;
 }
 .course-name {
     display: inline;
@@ -32,15 +80,17 @@ img{
     padding-top: 50px;
     width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 .pcoPic{
-    width: 400px;
+    margin-left: 300px;
+    width: 2000px;
     height: 400px;
 }
 .course-content .menu ol li{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 10px 10px;
     text-decoration: none;
 }
@@ -65,7 +115,7 @@ h2{
     text-align: center;
 }
 .contact{
-    font-size: 20px;
+    font-size: 17px;
     /* text-align: center; */
 }
 .way-to-contact{
@@ -124,7 +174,7 @@ button:hover{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    font-size: larger;
+    font-size: 18px;
 }
 .h4-of-unit{
     margin-left: -325px;
@@ -140,11 +190,11 @@ button:hover{
     border: 1px solid yellow; */
     padding-left: 25px;
     text-decoration: wavy;
-    font-size: 18px;
+    font-size: 16px;
 }
 .cell-3{
     padding-left: 25px;
-    font-size: 18px;
+    font-size: 16px;
     
     /* border: 1px solid blue; */
 }
