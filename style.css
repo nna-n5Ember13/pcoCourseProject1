@@ -38,13 +38,13 @@ nav{
     color: yellow;
     position: fixed;
     top:0;
-    right:0;
-    left: 0;
-    width:1490px;
-    padding:10px 10px;
+    left: -6%;
+    min-width: 112%;
+    padding:10px 10px 10px 10px;
 }
 .infor{
     margin-left: -50px;
+
     display: flex;
     width: 500px;
     justify-content: space-around;
@@ -53,6 +53,7 @@ nav{
 .navigation{
     display: flex;
     align-items: center;
+    padding-right: 12px;
 }
 .navigation li {
     list-style: none;
