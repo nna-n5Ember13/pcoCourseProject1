@@ -1,13 +1,13 @@
 *{
     margin:auto, auto;
     font-family: sans-serif;
+
 }
-/* .intro{
-    display:flex;
-} */
 body{
     margin: 0;
     padding: 0;
+    color: brown;
+   /*  background: yel */
 }
 img{
     width: 5rem;
@@ -30,6 +30,7 @@ img{
 } */
 
 nav{
+    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
     background: brown;
@@ -51,9 +52,10 @@ nav{
     color: yellow;
 }
 .navigation{
+    
     display: flex;
     align-items: center;
-    padding-right: 12px;
+    padding-right: 10px;
 }
 .navigation li {
     list-style: none;
@@ -64,14 +66,15 @@ nav{
 .navigation li a{
     color: yellow;
 }
-.navigation li:hover{
+/* .navigation li a:hover{
     background-color: aliceblue;
-}
+} */
 .icon{
     margin-left:50px ;
 }
 .content{
     margin-top: 150px;
+    
 }
 .course-name {
     display: inline;
@@ -95,21 +98,23 @@ nav{
     padding: 10px 10px;
     text-decoration: none;
 }
-
-.course-content .menu ol li a{
+/* .course-content .menu ol li a{
     text-decoration: none;
     color:brown;
 
-}
+} */
 .course-content .menu ol li a:hover{
     color:yellow;
 }
 a:-webkit-any-link{
+    transition: all 500ms;
     text-decoration: none;
     color:brown;
 }
 a:-webkit-any-link:hover{
     color:yellow;
+    font-size: 20px;
+    font-size-adjust: 22px;
 }
 h2{
     padding-top: 20px;
@@ -137,6 +142,12 @@ h2{
 textarea{
     border-radius: 5px;
     height: 90px;
+    border: 1px solid brown;
+    width: 500px;
+    color: brown;
+}
+textarea:active{
+    border: 1px solid brown;
 }
 button{
     margin-left: 20px;
@@ -144,6 +155,8 @@ button{
     margin-top: 20px;
     height: 50px;
     font-size: 15px;
+    border: 1px solid brown;
+    color: brown;
 
 }
 button:hover{
@@ -169,7 +182,7 @@ button:hover{
 }
 .cell-1{
     flex-basis: 84%;
-    border-right: 2px solid black;
+    border-right: 2px solid brown;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,7 +218,7 @@ button:hover{
     font-size: 20px;
 }
 table, tr, th, td{
-    border: 1px solid black;
+    border: 1px solid brown;
     border-collapse: collapse;
 }
 
@@ -222,7 +235,37 @@ table, tr, th, td{
 }
 #schedule{
     padding-top: 20px;
+    margin-bottom: 20px;
 }
 th,td{
     padding: 20px;
+}
+footer{
+    border-radius: 20px;
+    color: rgb(203, 216, 50);
+    background: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 98%;
+    padding: 10px;
+}
+.footer-text{   
+    padding-top: 70px;
+}
+.footer-social ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-social ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-top: 70px;
+}
+.footer-social ul a{
+    color:rgb(203, 216, 50);
 }
