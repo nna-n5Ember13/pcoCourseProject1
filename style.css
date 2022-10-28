@@ -89,11 +89,16 @@ nav{
     flex-direction: row;
 }
 .pcoPic{
-    margin-left: 300px;
-    width: 2000px;
+   /*  margin-left: 300px; */
+    width: 1000px;
     height: 400px;
 }
-.course-content .menu ol li{
+.course-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-display .menu ol li{
     font-size: 1.2rem;
     padding: 10px 10px;
     text-decoration: none;
@@ -103,7 +108,7 @@ nav{
     color:brown;
 
 } */
-.course-content .menu ol li a:hover{
+.course-display .menu ol li a:hover{
     color:yellow;
 }
 a:-webkit-any-link{
@@ -116,6 +121,11 @@ a:-webkit-any-link:hover{
     font-size: 20px;
     font-size-adjust: 22px;
 }
+#contact-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h2{
     padding-top: 20px;
     text-align: center;
@@ -126,7 +136,7 @@ h2{
 }
 .way-to-contact{
     display: inline-block;
-    margin-left: 500px;
+    /* margin-left: 500px; */
 }
 .contact-infor{
     display: inline-block;
@@ -145,10 +155,7 @@ textarea{
     border: 1px solid brown;
     width: 500px;
     color: brown;
-}
-textarea:active{
-    border: 1px solid brown;
-}
+}   
 button{
     margin-left: 20px;
     border-radius: 10px;
