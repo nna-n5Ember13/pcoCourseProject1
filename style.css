@@ -1,13 +1,13 @@
 *{
     margin:auto, auto;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 
 }
 body{
     margin: 0;
     padding: 0;
     color: brown;
-   /*  background: yel */
 }
 img{
     width: 5rem;
@@ -18,17 +18,7 @@ img{
 .all{
     display: flex;
     flex-direction: column;
-   /*  border: 1px solid black; */
 }
-/* .intro{
-    display: flex;
-    margin: 20px 20px 20px 20px;
-    justify-content:space-between;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px
-} */
-
 nav{
     border-radius: 20px;
     display: flex;
