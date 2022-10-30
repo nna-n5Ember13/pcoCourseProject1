@@ -7,7 +7,7 @@
 body{
     margin: 0;
     padding: 0;
-    color: brown;
+    color: black;
 }
 img{
     width: 5rem;
@@ -15,10 +15,17 @@ img{
     border-image: 5px;
     border-radius: 20px;
 }
+h2{
+    color: brown;
+}
+.desc{
+    color: brown;
+}
 .all{
     display: flex;
     flex-direction: column;
 }
+
 nav{
     border-radius: 20px;
     display: flex;
